@@ -1,0 +1,29 @@
+body,
+html {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.delete-icon {
+  width: 20px;
+  margin: auto;
+  align-items: center;
+}
+button {
+  width: 50px;
+  cursor: pointer;
+}
+#display {
+  width: 220px;
+  margin: auto;
+}
+.container {
+  max-width: 400px; /* Ancho máximo para el contenedor */
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 20px;
+}
